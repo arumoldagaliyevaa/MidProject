@@ -1,0 +1,144 @@
+body {
+  background-color: #f2f2f2;
+}
+
+form {
+  width: 700px;
+  height: 650px;
+  /* background-color: yellow; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact_topic {
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+.contact_body {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body_part {
+  width: 600px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+input {
+  width: 500px !important;
+}
+
+input,
+button {
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 0px solid white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: 1000;
+  font-size: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input::-webkit-input-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  /* width: 550px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 52px;
+}
+
+textarea {
+  width: 500px;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 200px;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 0px solid white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: 1000;
+  font-size: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: start;
+}
+
+textarea:focus {
+  /* width: 550px; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+textarea::-webkit-input-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+textarea::-moz-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+textarea::-ms-input-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+button {
+  width: 100px;
+  background-color: #b468ff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  width: 120px;
+  background-color: #403866;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 700px) {
+  form {
+    width: 400px;
+  }
+
+  .contact_body {
+    width: 300px;
+  }
+
+  .body_part {
+    width: 300px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+}

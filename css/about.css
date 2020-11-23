@@ -1,0 +1,30 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.about_page_body {
+  text-align: center;
+}
+
+.about_page_img {
+  grid-area: "img";
+}
+
+.about_page_body_div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_page_body_title {
+  font-weight: 1000;
+}
+
+.about_page_img img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
